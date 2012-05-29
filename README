@@ -1,0 +1,88 @@
+NAME
+    Task::BeLike::TOBYINK::Utils - be like TOBYINK and use these Utils
+    stuffz
+
+DESCRIPTION
+    Task installs the following modules:
+
+    *   Any::Mo
+
+    *   Between
+
+    *   Capture::Attribute
+
+    *   Class::Load
+
+    *   Data::Printer
+
+    *   DateTime
+
+    *   DateTime::Format::ISO8601
+
+    *   DateTimeX::Auto
+
+    *   File::Slurp
+
+    *   Getopt::ArgvFile
+
+    *   Getopt::Long
+
+    *   IO::All
+
+    *   List::MapMulti
+
+    *   List::MoreUtils
+
+    *   List::Pairwise
+
+    *   List::Util
+
+    *   Object::AUTHORITY
+
+    *   Object::DOES
+
+    *   Object::ID
+
+    *   Path::Class
+
+    *   Path::Class::Rule
+
+    *   Scalar::Util
+
+    *   Set::Scalar
+
+    *   Smart::Dispatch
+
+    *   Sort::Key
+
+    *   Test::Exception
+
+    *   Test::More
+
+    *   Test::Warn
+
+    *   Unicode::Debug
+
+    *   namespace::sweep
+
+    *   perl5::tobyink
+
+    *   utf8::all
+
+SEE ALSO
+    Acme::About::TOBYINK, Task::BeLike::TOBYINK.
+
+AUTHOR
+    Toby Inkster <tobyink@cpan.org>.
+
+COPYRIGHT AND LICENCE
+    This software is copyright (c) 2012 by Toby Inkster.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
+DISCLAIMER OF WARRANTIES
+    THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+    WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+    MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+

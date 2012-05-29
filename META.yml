@@ -1,0 +1,61 @@
+---
+abstract: 'be like TOBYINK and use these Utils stuffz'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.61
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.02'
+keywords: []
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Task::BeLike::TOBYINK::Utils
+name: Task-BeLike-TOBYINK-Utils
+no_index:
+  directory:
+    - inc
+    - xt
+requires:
+  Any::Mo: 0
+  Between: 0
+  Capture::Attribute: 0
+  Class::Load: 0
+  Data::Printer: 0
+  DateTime: 0
+  DateTime::Format::ISO8601: 0
+  DateTimeX::Auto: 0
+  File::Slurp: 0
+  Getopt::ArgvFile: 0
+  Getopt::Long: 0
+  IO::All: 0
+  List::MapMulti: 0
+  List::MoreUtils: 0
+  List::Pairwise: 0
+  List::Util: 0
+  Object::AUTHORITY: 0
+  Object::DOES: 0
+  Object::ID: 0
+  Path::Class: 0
+  Path::Class::Rule: 0
+  Scalar::Util: 0
+  Set::Scalar: 0
+  Smart::Dispatch: 0
+  Sort::Key: 0
+  Test::Exception: 0
+  Test::More: 0
+  Test::Warn: 0
+  Unicode::Debug: 0
+  namespace::sweep: 0
+  perl: 5.10.0
+  perl5::tobyink: 0
+  utf8::all: 0
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Task-BeLike-TOBYINK-Utils
+  homepage: https://metacpan.org/release/Task-BeLike-TOBYINK-Utils
+  license: http://dev.perl.org/licenses/
+version: 2012.150
