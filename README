@@ -47,6 +47,10 @@ DESCRIPTION
 
     *   Path::Class::Rule
 
+    *   PerlX::MethodCallWithBlock
+
+    *   Scalar::Does
+
     *   Scalar::Util
 
     *   Set::Scalar
@@ -54,6 +58,8 @@ DESCRIPTION
     *   Smart::Dispatch
 
     *   Sort::Key
+
+    *   Syntax::Collector
 
     *   Test::Exception
 
@@ -63,9 +69,9 @@ DESCRIPTION
 
     *   Unicode::Debug
 
-    *   namespace::sweep
+    *   aliased
 
-    *   perl5::tobyink
+    *   namespace::sweep
 
     *   utf8::all
 

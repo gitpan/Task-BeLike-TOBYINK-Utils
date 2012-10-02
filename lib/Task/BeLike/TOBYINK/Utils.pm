@@ -4,7 +4,7 @@ use 5.010;
 
 BEGIN {
 	$Task::BeLike::TOBYINK::Utils::AUTHORITY = 'cpan:TOBYINK';
-	$Task::BeLike::TOBYINK::Utils::VERSION   = '2012.150';
+	$Task::BeLike::TOBYINK::Utils::VERSION   = '2012.276';
 }
 
 __PACKAGE__
@@ -62,6 +62,10 @@ Task installs the following modules:
 
 =item * Path::Class::Rule
 
+=item * PerlX::MethodCallWithBlock
+
+=item * Scalar::Does
+
 =item * Scalar::Util
 
 =item * Set::Scalar
@@ -69,6 +73,8 @@ Task installs the following modules:
 =item * Smart::Dispatch
 
 =item * Sort::Key
+
+=item * Syntax::Collector
 
 =item * Test::Exception
 
@@ -78,9 +84,9 @@ Task installs the following modules:
 
 =item * Unicode::Debug
 
-=item * namespace::sweep
+=item * aliased
 
-=item * perl5::tobyink
+=item * namespace::sweep
 
 =item * utf8::all
 

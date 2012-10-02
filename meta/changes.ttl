@@ -12,3 +12,19 @@ my:v_2012-150
 	:revision       "2012.150"^^xsd:string ;
 	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Task-BeLike-TOBYINK-Utils-2012.150.tar.gz> .
 
+@prefix dcs:     <http://ontologi.es/doap-changeset#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+
+my:project :release my:v_2012-276 .
+my:v_2012-276
+	a               :Version ;
+	dc:issued       "2012-10-02"^^xsd:date ;
+	:revision       "2012.276"^^xsd:string ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Task-BeLike-TOBYINK-Utils-2012.276.tar.gz> ;
+	dcs:changeset [
+		dcs:item [ rdfs:label "Scalar::Does"; a dcs:Addition ];
+		dcs:item [ rdfs:label "aliased"; a dcs:Addition ];
+		dcs:item [ rdfs:label "Syntax::Collector"; a dcs:Addition ];
+		dcs:item [ rdfs:label "perl5::tobyink"; a dcs:Removal ];
+	].
+

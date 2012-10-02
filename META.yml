@@ -3,12 +3,13 @@ abstract: 'be like TOBYINK and use these Utils stuffz'
 author:
   - 'Toby Inkster <tobyink@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
   Test::More: 0.61
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
 distribution_type: module
-generated_by: 'Module::Install version 1.02'
+dynamic_config: 0
+generated_by: 'Module::Install version 1.06'
 keywords: []
 license: perl
 meta-spec:
@@ -42,20 +43,23 @@ requires:
   Object::ID: 0
   Path::Class: 0
   Path::Class::Rule: 0
+  PerlX::MethodCallWithBlock: 0
+  Scalar::Does: 0
   Scalar::Util: 0
   Set::Scalar: 0
   Smart::Dispatch: 0
   Sort::Key: 0
+  Syntax::Collector: 0
   Test::Exception: 0
   Test::More: 0
   Test::Warn: 0
   Unicode::Debug: 0
+  aliased: 0
   namespace::sweep: 0
   perl: 5.10.0
-  perl5::tobyink: 0
   utf8::all: 0
 resources:
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Task-BeLike-TOBYINK-Utils
   homepage: https://metacpan.org/release/Task-BeLike-TOBYINK-Utils
   license: http://dev.perl.org/licenses/
-version: 2012.150
+version: 2012.276
